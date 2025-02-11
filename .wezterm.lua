@@ -1,11 +1,7 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
-config.launch_menu = {
-    {
-        args = { 'top '},
-    },
-}
+config.default_domain = 'WSL:Arch'
 
 -- Performance
 config.max_fps = 144
@@ -16,7 +12,6 @@ config.scrollback_lines = 5000
 config.color_scheme = 'Catppuccin Macchiato'
 config.font = wezterm.font('Hack Nerd Font', { weight = 'Medium' })
 config.font_size = 12
-config.default_domain = 'WSL:Arch'
 config.window_decorations = 'RESIZE'
 
 -- Inactive panes

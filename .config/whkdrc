@@ -24,6 +24,8 @@ alt + shift + oem_4     : komorebic cycle-monitor previous # oem_4 is [
 alt + shift + oem_6     : komorebic cycle-monitor next # oem_6 is ]
 VK_F1                   : komorebic move-to-monitor 0
 VK_F2                   : komorebic move-to-monitor 1
+VK_F15                  : komorebic focus-monitor 0
+VK_F16                  : komorebic focus-monitor 1
 
 # Move windows
 alt + shift + h         : komorebic move left
