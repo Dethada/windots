@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Dethada/komorebi/refs/heads/bar-widget-keyboard/schema.bar.json",
+  "monitor": {
+    "index": 0,
+    "work_area_offset": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 40
+    }
+  },
+  "font_family": "JetBrainsMono Nerd Font Regular",
+  "font_size": 13,
+  "theme": {
+    "palette": "Base16",
+    "name": "Ashes",
+    "accent": "Base0D"
+  },
+  "grouping": {
+    "kind": "Bar",
+    "style": "DefaultWithGlowB3O0S2",
+    "rounding": 5
+  },
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": true
+        },
+        "focused_window": {
+          "enable": true,
+          "show_icon": true
+        }
+      }
+    }
+  ],
+  "center_widgets": [],
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Keyboard": {
+        "enable": true
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    }
+  ]
+}

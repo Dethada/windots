@@ -1,0 +1,193 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.33/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 10,
+  "default_container_padding": 10,
+  "border": true,
+  "border_width": 6,
+  "border_offset": -1,
+  "theme": {
+    "palette": "Base16",
+    "name": "Ashes",
+    "unfocused_border": "Base03",
+    "bar_accent": "Base0D"
+  },
+  "stackbar": {
+    "height": 30,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 100
+    }
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "0: \uE0F4",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "zen.exe"
+            }
+          ]
+        },
+        {
+          "name": "1: \uEAFE",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "Code.exe"
+            }
+          ]
+        },
+        {
+          "name": "2: \uE47E",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "WindowsTerminal.exe"
+            }
+          ]
+        },
+        {
+          "name": "3: \uE34C",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "Obsidian.exe"
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "layout": "BSP"
+        },
+        {
+          "name": "5",
+          "layout": "BSP"
+        },
+        {
+          "name": "6",
+          "layout": "BSP"
+        },
+        {
+          "name": "7: \uE740",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "stremio.exe"
+            },
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "JellyfinMediaPlayer.exe"
+            },
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "steamwebhelper.exe"
+            }
+          ]
+        },
+        {
+          "name": "8: \uE6D8",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "Telegram.exe"
+            },
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "Signal.exe"
+            }
+          ]
+        },
+        {
+          "name": "9: \uE548",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "vmware.exe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "0: \uE0F4",
+          "layout": "Rows"
+        },
+        {
+          "name": "1: \uE47E",
+          "layout": "Rows"
+        },
+        {
+          "name": "2: \uE33C",
+          "layout": "Rows",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "matching_strategy": "Equals",
+              "id": "YouTube Music.exe"
+            }
+          ]
+        },
+        {
+          "name": "3: \uE61A",
+          "layout": "Rows"
+        },
+        {
+          "name": "4",
+          "layout": "Rows"
+        },
+        {
+          "name": "5",
+          "layout": "Rows"
+        },
+        {
+          "name": "6",
+          "layout": "Rows"
+        },
+        {
+          "name": "7",
+          "layout": "Rows"
+        },
+        {
+          "name": "8",
+          "layout": "Rows"
+        },
+        {
+          "name": "9",
+          "layout": "Rows"
+        }
+      ]
+    }
+  ],
+  "bar_configurations": [
+    "$Env:USERPROFILE/komorebi.bar.monitor0.json",
+    "$Env:USERPROFILE/komorebi.bar.monitor1.json"
+  ],
+  "display_index_preferences": {
+    "0": "GSM5C4D-5&25c781d3&0&UID4353",
+    "1": "GSM5C64-5&25c781d3&0&UID4352"
+  }
+}
